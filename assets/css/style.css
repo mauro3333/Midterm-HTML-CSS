@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica';
+    box-sizing: border-box;
+}
+
+
+
+.img-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    padding: 10px;
+    gap: 20px;
+}
+
+.img-table article {
+    margin-top: 20px;
+    max-width: 317px;
+}
+
+.img1 img {
+    max-width: 317px;
+    height: auto;
+}
+
+.img-table h2 {
+    font-size: 18px;
+    color: #1b78e2;
+    padding-top: 10px;
+}
+
+.table-title h2 {
+    font-size: 36px;
+    color: #3a3a3a;
+    padding: 0px;
+    width: 690px;
+    float: left;
+
+}
+
+.table-title div {
+    width: 690px;
+    text-align: right;
+}
+
+input {
+    padding: 16px;
+    font-size: 16px;
+    background-color: white;
+    border-width: 1px;
+}
+
+.table-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+.enroll {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.enroll h2 {
+    margin: 0px 10px 25px 10px;
+}
+
+.table-div::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #2f4468;
+}
+
+header #logo {
+    width: 25%;
+}
+
+header nav {
+    width: 50%;
+}
+
+#logo img {
+    height: 60px;
+    width: 145px;
+    padding: 10px;
+}
+
+a {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 690px;
+    list-style-type: none;
+}
+
+#top-menu {
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-menu div{
+    width: 1380px;
+}
+
+#top-menu a{
+    font-size: 18px;
+    color: black;
+    background: #edeff3;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+}
+
+.latest{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 427px;
+}
+
+.picture {
+    width: 45%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    width: 30%;
+}
+
+.list a {
+    font-size: 36px;
+    color: 3a3a3a;
+    font-weight: bold;
+}
+
+.img2 img {
+    height: 76px;
+    float: left;
+}
+
+.list-column a {
+    font-size: 18px;
+    color: #1b78e2;
+    padding: 10px;
+}
+
+.list-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 506px;
+    padding: 10px;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.as-seen h2{
+    font-size: 36px;
+    color: #3a3a3a;
+    padding-top: 20px;
+}
+
+.as-seen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer a {
+    font-size: 15px;
+    color: #2f4468;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin: 20px 0px 10px;
+}
