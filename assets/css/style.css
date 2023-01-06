@@ -66,9 +66,7 @@ input {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.enroll h2 {
-    margin: 0px 10px 25px 10px;
-}
+
 
 .table-div::after {
     content: "";
@@ -149,19 +147,6 @@ header ul {
     flex-wrap: wrap;
 }
 
-.picture img {
-    /* width: 45%; */
-    /* height: auto; */
-    /* width: auto; */
-    
-}
-
-/* .picture {
-    height: auto;
-    width: auto;
-
-} */
-
 .list {
     display: flex;
     flex-direction: column;
@@ -229,6 +214,51 @@ footer {
     /* height: 50px; */
     margin: 20px 0px 10px;
 }
+
+
+img:hover  {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+h2:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.latest a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#top-menu a:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: #dddfe4;
+}
+
+a:hover {
+    color: #d0d3d6;
+    cursor: pointer;
+}
+
+
+.enroll h2 {
+    margin: 0px 10px 25px 10px;
+    color: black;
+    cursor: text;
+    font-weight: lighter;
+}
+
+.enroll span {
+    color: #1b78e2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width: 1024px) {
     header {
